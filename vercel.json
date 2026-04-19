@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/worlds/:path*", "destination": "/api/worlds" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
