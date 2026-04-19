@@ -1,0 +1,8 @@
+node_modules/
+dist/
+server/node_modules/
+server/data/worlds/*.json
+vite-project/
+.env
+.DS_Store
+*.local
